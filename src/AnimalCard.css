@@ -1,0 +1,35 @@
+/* src/AnimalCard.css */
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 2rem auto;
+}
+
+.animal-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.fact {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
